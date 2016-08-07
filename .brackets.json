@@ -1,13 +1,10 @@
 {
-    "sass.enabled": false,
+    "sass.enabled": true,
     "sass.compiler": "libsass",
     "path": {
-        "scss/app.scss": {
+        "scss/common.sass": {
             "sass.enabled": true,
             "sass.options": {
-                "includePaths": [
-                    "../bower_components/bourbon/app/assets/stylesheets/"
-                ],
                 "outputDir": "../css/",
                 "imagePath": null,
                 "sourceComments": false,
